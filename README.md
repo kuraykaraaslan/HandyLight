@@ -14,8 +14,13 @@ HandyLight is a simple yet powerful React Native app built with Expo that functi
 Clone the repository:
 
 ```sh
-git clone https://github.com/yourusername/handylight.git
-cd handylight
+git clone https://github.com/kuraykaraaslan/HandyLight.git
+```
+
+Navigate to the project directory:
+
+```sh
+cd HandyLight
 ```
 
 Install dependencies:
