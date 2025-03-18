@@ -1,50 +1,62 @@
-# Welcome to your Expo app 👋
+# HandyLight
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+HandyLight is a simple yet powerful React Native app built with Expo that functions as a flashlight and Morse code sender. Whether you need a quick light source or want to communicate via Morse code, HandyLight provides an intuitive and efficient experience.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Flashlight Toggle**: Instantly turn on and off the device flashlight.
+- **Morse Code Sender**: Convert text into Morse code and transmit it using the flashlight.
+- **Adjustable Speed**: Control the speed of Morse code transmission.
+- **User-Friendly Interface**: Clean and simple UI for seamless usability.
 
-   ```bash
-   npm install
-   ```
+## Installation
 
-2. Start the app
+Clone the repository:
 
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```sh
+git clone https://github.com/yourusername/handylight.git
+cd handylight
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Install dependencies:
 
-## Learn more
+```sh
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Start the app with Expo:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```sh
+npx expo start
+```
 
-## Join the community
+## Dependencies
 
-Join our community of developers creating universal apps.
+- **React Native**: Core framework for building the app.
+- **Expo**: Simplifies development and deployment.
+- **react-native-torch**: Controls the flashlight.
+- **expo-sensors**: For detecting ambient light (optional feature).
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Usage
+
+### Flashlight Mode
+
+Tap the flashlight button to turn it on/off.
+
+### Morse Code Transmission
+
+1. Enter text in the input field.
+2. Press the "Send" button to transmit it as Morse code using the flashlight.
+3. Adjust speed settings if needed.
+
+## Roadmap
+
+## Contributing
+
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
+Stay Handy with HandyLight! 🚀
